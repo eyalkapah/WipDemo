@@ -1,0 +1,8 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WipDemo.Converters">
+    <local:BoolToOnOffConverter x:Key="BoolToOnOffConverter" />
+    <local:NullToInverseBooleanConverter x:Key="NullToInverseBooleanConverter" />
+    <local:MessageTypeColorConverter x:Key="MessageTypeColorConverter" />
+</ResourceDictionary>
